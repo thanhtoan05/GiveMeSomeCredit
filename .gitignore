@@ -1,0 +1,21 @@
+# Local Kaggle inputs and generated predictions
+cs-training.csv
+cs-test.csv
+sampleEntry.csv
+Data Dictionary.xls
+*.zip
+submission*.csv
+kaggle.json
+.env
+
+# Local course material
+Overview_ML.pptx
+
+# Python and editor state
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+Thumbs.db
