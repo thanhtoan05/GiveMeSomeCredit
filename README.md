@@ -4,6 +4,8 @@ Project kiểm định một **WOE Logistic Scorecard** dự báo khách hàng q
 
 ## Kết quả kiểm định
 
+**[Đọc báo cáo kết quả nghiên cứu](RESULTS.md)** — Cách chấm điểm, so sánh mô hình, lựa chọn threshold và điều kiện sử dụng.
+
 | Metric trên 37.500 hồ sơ validation | Scorecard gốc | Scorecard v2 |
 |---|---:|---:|
 | AUC | 0,858692 | 0,859699 |
