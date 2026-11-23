@@ -2,8 +2,6 @@
 
 Project kiểm định một **WOE Logistic Scorecard** dự báo khách hàng quá hạn từ 90 ngày trở lên trong vòng hai năm. Bài phân tích tái lập mô hình gốc, kiểm tra các giả định về dữ liệu và binning, rồi đối chiếu với HistGradientBoosting trên cùng tập validation.
 
-**[Đọc notebook kiểm định v2 với đầy đủ output](outputs/GiveMeSomeCredit_Model_Validation_v2.ipynb)**. Phần đầu có kết luận và *findings register*. [Notebook gốc](GiveMeSomeCredit_Model_Validation.ipynb) là mốc so sánh.
-
 ## Kết quả kiểm định
 
 | Metric trên 37.500 hồ sơ validation | Scorecard gốc | Scorecard v2 |
@@ -42,6 +40,6 @@ Mẫu Kaggle có giới hạn khi suy rộng sang khách hàng Việt Nam. Dữ 
    .\.venv\Scripts\python.exe -m pip install -r requirements.txt
    ```
 
-3. Mở notebook v2 bằng VS Code với extension Jupyter, chọn kernel Python trong `.venv` và bấm **Run All**. Báo cáo ở đầu notebook cập nhật khi ô tổng hợp chạy xong. Notebook dùng seed 42 và xuất `submission_scorecard_v2.csv` vào thư mục làm việc của kernel.
+3. Mở notebook bằng VS Code với extension Jupyter, chọn kernel Python trong `.venv` và bấm **Run All**. Báo cáo ở đầu notebook cập nhật khi ô tổng hợp chạy xong. Notebook dùng seed 42 và xuất `submission_scorecard_v2.csv` vào thư mục làm việc của kernel.
 
 Notebook đã lưu output nên có thể đọc kết quả ngay trên GitHub. Dữ liệu nguồn và các file submission được loại khỏi danh sách file đưa lên Git.
